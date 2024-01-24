@@ -45,6 +45,10 @@
 
   {{ seo_tags }}
 
+  {% if site.baseurl and site.baseurl != empty %}
+    <meta name="baseurl" content="{{ site.baseurl }}">
+  {% endif %}
+
   <title>
     {%- unless page.layout == 'home' -%}
       {{ page.title | append: ' | ' }}
