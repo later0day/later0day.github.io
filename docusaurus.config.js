@@ -9,8 +9,8 @@ const projectName = "later0day's blog";
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: "My Site",
-  tagline: "Dinosaurs are cool",
+  title: "Late0day",
+  tagline: "为时未晚!",
   url: `https://${organizationName}.github.io`,
   baseUrl: `/${projectName}/`,
   onBrokenLinks: "throw",
@@ -27,10 +27,15 @@ const config = {
   // Even if you don't use internalization, you can use this field to set useful
   // metadata like html lang. For example, if your site is Chinese, you may want
   // to replace "en" with "zh-Hans".
-  i18n: {
-    defaultLocale: "zh-Hans",
-    locales: ["zh-Hans"],
-  },
+  // i18n: {
+  //   defaultLocale: "en",
+  //   locales: ["en", "zh-Hans"],
+  //   localeConfigs: {
+  //     en: {
+  //       htmlLang: 'en-GB',
+  //     }
+  //   }
+  // },
 
   presets: [
     [
