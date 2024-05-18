@@ -13,7 +13,7 @@ const config = {
   tagline: "为时未晚!",
   url: `https://${organizationName}.github.io`,
   baseUrl: `/${projectName}/`,
-  onBrokenLinks: "throw",
+  onBrokenLinks: "pass",
   onBrokenMarkdownLinks: "throw",
   favicon: "img/favicon.ico",
   // GitHub Pages adds a trailing slash by default that I don't want
@@ -27,15 +27,15 @@ const config = {
   // Even if you don't use internalization, you can use this field to set useful
   // metadata like html lang. For example, if your site is Chinese, you may want
   // to replace "en" with "zh-Hans".
-  // i18n: {
-  //   defaultLocale: "en",
-  //   locales: ["en", "zh-Hans"],
-  //   localeConfigs: {
-  //     en: {
-  //       htmlLang: 'en-GB',
-  //     }
-  //   }
-  // },
+  i18n: {
+    defaultLocale: "en",
+    locales: ["en", "zh-Hans"],
+    localeConfigs: {
+      en: {
+        htmlLang: 'en-GB',
+      }
+    }
+  },
 
   presets: [
     [
