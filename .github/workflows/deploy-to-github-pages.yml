@@ -41,6 +41,8 @@ jobs:
           cache: yarn
       - name: Install dependencies
         run: yarn install --frozen-lockfile --non-interactive
+      - name: Upgrade dependencies
+        run: npx update-browserslist-db@latest --yes
       - name: Build
         run: yarn build
       - name: Setup Pages
