@@ -13,7 +13,7 @@ const config = {
   tagline: "为时未晚!",
   url: `https://${organizationName}.github.io`,
   baseUrl: `/${projectName}/`,
-  onBrokenLinks: "pass",
+  onBrokenLinks: "log",
   onBrokenMarkdownLinks: "throw",
   favicon: "img/favicon.ico",
   // GitHub Pages adds a trailing slash by default that I don't want
