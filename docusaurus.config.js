@@ -12,7 +12,7 @@ const config = {
   title: "Late0day",
   tagline: "为时未晚!",
   url: `https://${organizationName}.github.io`,
-  baseUrl: `/${projectName}/`,
+  baseUrl: `/`,
   onBrokenLinks: "log",
   onBrokenMarkdownLinks: "throw",
   favicon: "img/favicon.ico",
